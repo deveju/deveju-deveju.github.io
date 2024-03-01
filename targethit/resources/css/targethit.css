@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(36,44,52);
+    color: rgb(200,200,200,0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    padding: 5% 15% 5% 5%; 
+    user-select: none;
+}
+
+.targets {
+    column-count: 6;
+    column-gap: 10%;
+}
+
+.circle {
+    position: absolute;
+    background-color: rgb(255,0,0,1);
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    border: 2px solid red;
+    z-index: 1;
+}
+
+.redzone {
+    position: fixed;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border: none;
+}
+
+#blank {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+    border: none;
+    background-color: rgb(36,44,52);
+}
+
+.circle:active {
+    border: 3px solid rgb(255,255,255,1);
+    transition: 0.2s;
+}
+
+#finalScore {
+    font-size: 20px;
+    position: fixed;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0,0,0,0.35);
+    display: none;
+    transform: translate(-50%,-50%);
+    top: 47.5%;
+    left: 50%;
+    z-index: 2;
+}
+
+#time {
+    font-size: 20px;
+    position: fixed;
+    right: 10px;
+    top: -7.5px;
+    z-index: -1;
+    user-select: none;
+}
+
+#score {
+    font-size: 20px;
+    position: fixed;
+    right: 10px;
+    top: 12.5px;
+    z-index: -1;
+    user-select: none;
+}

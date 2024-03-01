@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/paint.css">
+    <link rel="icon" href="../index/resources/img/paint.png">
+    <title>Paint</title>
+</head>
+<body>
+    <div id="menu">
+        <input type="color" id="bgcolor" class="menu-item" value="#ffffff">
+        <label for="bgcolor" class="up">Background Color</label><br>
+
+        <span class="warn">(Changing those will erase the drawing)</span><br>
+
+        <label for="pixels-select">Pixel-count: </label>
+        <select id="pixels-select" name="pixels">
+            <option id="op64" value="8">64 pixels</option>
+            <option id="op100" value="10">100 pixels</option>
+            <option id="op256" value="16">256 pixels</option>
+            <option id="op400" value="20">400 pixels</option>
+            <option id="op1024" value="32">1024 pixels</option>
+            <option id="op4096" value="64">4096 pixels</option>
+        </select><br>
+        
+        <input type="color" id="color" class="menu-item" value="#000000">
+        <label for="color" class="up">Color 1</label><br>
+
+        <input type="color" id="color2" class="menu-item" value="#ffffff">
+        <label for="color2" class="up">Color 2</label><br>
+
+        <button type="button" id="clear" class="menu-item">Clear</button>
+    </div>
+    <div id="drawing">
+        
+    </div>
+
+    <script src="resources/js/script.js"></script>
+</body>
+</html>

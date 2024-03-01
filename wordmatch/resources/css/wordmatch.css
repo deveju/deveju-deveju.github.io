@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(36,44,52);
+    color: rgb(200,200,200,0.8);
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+#patternInput {
+    margin-bottom: 10px;
+}
+
+#len {
+    max-width: 30px;
+}
+
+#matches {
+    padding: 20px;
+    color: white;
+    text-shadow: none;
+    column-count: 8; 
+    column-gap: 5px; 
+    outline: none;
+}
+
+div {
+    outline: 1px solid black;
+    padding: 3px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+

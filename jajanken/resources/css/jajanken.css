@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.actions {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: fit-content;
+    width: fit-content;
+    float: left;
+}
+
+.game-icons {
+    height: 30vh;
+    width: 30vh;
+    transform: rotate(-90deg);
+}
+
+.game-buttons {
+    transition: 0.2s;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+}
+
+.game-buttons:active {
+    background-color: rgba(95,17,84,0.5);
+}
+
+#result {
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 15%;
+    left: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vh;
+    color: white;
+}

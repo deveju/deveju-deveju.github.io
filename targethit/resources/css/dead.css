@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(36,44,52);
+    color: rgb(200,200,200,0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    padding: 5%;
+}
+
+.info {
+    text-align: justify;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 20%;
+    background-color: rgb(0,0,0,0.2);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 650px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.play-again {
+    color: rgb(200,200,200,1);
+    background-color: rgb(0,0,0,0.2);
+    padding: 5px;
+    height: 70px;
+    width: 210px;
+    border-radius: 10px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    border: 2px solid rgb(200,200,200,1);
+    transition: 1s;
+}
+
+.play-again:hover {
+    background-color: rgb(255,255,255,0.5);
+    color: rgb(0,0,0,1);
+}

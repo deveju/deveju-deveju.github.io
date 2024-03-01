@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/wordmatch.css">
+    <link rel="icon" href="../index/resources/img/icon.png">
+    <title>Matching Words</title>
+</head>
+<body>
+    <label for="patternInput">Enter Pattern: </label>
+    <input type="text" id="patternInput" placeholder="e.g., ex__p, te_t_d">
+    <button onclick="findMatchingWords()">Find Matching Words</button>
+    <br>
+    <label for="len">Word Length: </label>
+    <input type="number" id="len">
+    <div id="matches"></div>
+    <script src="resources/js/wordmatch.js"></script>
+    <script src="../index/resources/js/return.js"></script>
+</body>
+</html>

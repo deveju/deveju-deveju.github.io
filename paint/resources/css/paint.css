@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    font-family:monospace
+}
+
+#drawing {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    width: 960px;
+    height: 960px;
+    outline: 3px solid red;
+}
+
+#menu {
+    font-size: 1.4em;
+    color: #fff;
+    position: absolute;
+    margin: 280px 60px;
+    padding: 30px;
+    background-color: rgb(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+.pixel {
+    background-color: #ffffff;
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+.warn {
+    font-size: 12px;
+    color: red;
+}
+
+#pixels-select {
+    font-size: 1em;
+}
+
+#color, #color2, #bgcolor {
+    border: none;
+    appearance: none;
+    height: 50px;
+    width: 50px;
+}
+
+.up {
+    position: relative;
+    top: -15px;
+}
+
+#clear {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 50px;
+    width: 90%;
+}
+
+.menu-item {
+    margin: 10px 5px;
+}

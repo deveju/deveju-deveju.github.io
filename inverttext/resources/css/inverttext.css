@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(36,44,52);
+    color: rgb(200,200,200,0.8);
+    text-shadow: 0.1vh 0.1vh 0.2vh black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2vh;
+}
+
+.title {
+    position: fixed;
+    top: -3%;
+    font-size: 2vh;
+}
+
+.to-left {
+    position: fixed;
+    left: 50%;
+}
+
+.to-right {
+    position: fixed;
+    left: 13.5%;
+}
+
+#copy {
+    position: fixed;
+    top: 81.5%;
+    left: 51%;
+    color: white;
+    text-shadow: none;
+    font-size: 1.5vh;
+}
+
+#copy-button {
+    font-size: 1.5vh;
+    width: 26.5vh;
+    height: 3vh;
+}
+
+#elements {
+    transform: translate(-50%,-50%);
+    position: fixed;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+}
+
+.left {
+    margin: 2vh;
+    float: left;
+}
+
+#text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6vh;
+    padding: 2vh;
+    height: 35vh;
+    width: 22vh;
+    max-width: 38vh;
+    min-height: 41.5vh;
+    max-height: 84vh;
+    overflow-y: scroll;
+}
+
+#res {
+    text-shadow: none;
+    font-size: 1.6vh;
+    background-color: black;
+    border-radius: 0.5vh;
+    height: 2.5vh;
+    min-width: 22.5vh;
+    max-width: 22.5vh;
+    height: 35vh;
+    max-height: 35vh;
+    width: fit-content;
+    padding: 2vh;  
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
